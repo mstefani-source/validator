@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.validator.AppTest" time="0.093" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/mstefani/maven/validator/autovalidator/target/test-classes:/home/mstefani/maven/validator/autovalidator/target/classes:/home/mstefani/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/mstefani/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/mstefani/.m2/repository/com/networknt/json-schema-validator/1.5.5/json-schema-validator-1.5.5.jar:/home/mstefani/.m2/repository/com/ethlo/time/itu/1.10.3/itu-1.10.3.jar:/home/mstefani/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.1/jackson-databind-2.18.1.jar:/home/mstefani/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.1/jackson-annotations-2.18.1.jar:/home/mstefani/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.1/jackson-core-2.18.1.jar:/home/mstefani/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.18.1/jackson-dataformat-yaml-2.18.1.jar:/home/mstefani/.m2/repository/org/yaml/snakeyaml/2.3/snakeyaml-2.3.jar:/home/mstefani/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:"/>
+    <property name="java.vm.vendor" value="Red Hat, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://www.redhat.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-17.0.5.0.8-2.el8_6.x86_64-fastdebug/lib"/>
+    <property name="sun.java.command" value="/home/mstefani/maven/validator/autovalidator/target/surefire/surefirebooter3723066988196688498.jar /home/mstefani/maven/validator/autovalidator/target/surefire 2025-01-29T00-07-51_569-jvmRun1 surefire5264446027893119983tmp surefire_090053380174930824tmp"/>
+    <property name="jdk.debug" value="fastdebug"/>
+    <property name="surefire.test.class.path" value="/home/mstefani/maven/validator/autovalidator/target/test-classes:/home/mstefani/maven/validator/autovalidator/target/classes:/home/mstefani/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/mstefani/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/mstefani/.m2/repository/com/networknt/json-schema-validator/1.5.5/json-schema-validator-1.5.5.jar:/home/mstefani/.m2/repository/com/ethlo/time/itu/1.10.3/itu-1.10.3.jar:/home/mstefani/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.1/jackson-databind-2.18.1.jar:/home/mstefani/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.1/jackson-annotations-2.18.1.jar:/home/mstefani/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.1/jackson-core-2.18.1.jar:/home/mstefani/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.18.1/jackson-dataformat-yaml-2.18.1.jar:/home/mstefani/.m2/repository/org/yaml/snakeyaml/2.3/snakeyaml-2.3.jar:/home/mstefani/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/mstefani"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-17.0.5.0.8-2.el8_6.x86_64-fastdebug"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/mstefani/maven/validator/autovalidator"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/mstefani/maven/validator/autovalidator/target/surefire/surefirebooter3723066988196688498.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.5+8-LTS"/>
+    <property name="user.name" value="mstefani"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.18.0-553.36.1.el8_10.x86_64"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="(Red_Hat-17.0.5.0.8-2.el8_6)"/>
+    <property name="localRepository" value="/home/mstefani/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugzilla.redhat.com/enter_bug.cgi?product=Red%20Hat%20Enterprise%20Linux%208&amp;component=java-17-openjdk"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="/home/mstefani/maven/validator/autovalidator"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Red Hat, Inc."/>
+    <property name="java.vm.version" value="17.0.5+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="ru.validator.AppTest" time="0.007"/>
+</testsuite>
