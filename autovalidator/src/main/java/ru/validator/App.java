@@ -2,6 +2,9 @@ package ru.validator;
 
 import java.util.Set;
 
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+
 import com.networknt.schema.InputFormat;
 import com.networknt.schema.JsonSchema;
 import com.networknt.schema.JsonSchemaFactory;
@@ -15,8 +18,11 @@ import com.networknt.schema.ValidationMessage;
  *
  */
 public class App {
+
+    private static final Logger LOGGER = LogManager.getLogger();
     public static void main(String[] args) {
         System.out.println("Hello World!");
+        LOGGER.warn("HI");
         JsonSchemaFactory jsonSchemaFactory = JsonSchemaFactory.getInstance(VersionFlag.V202012, builder ->
         // This creates a mapping from $id which starts with https://www.example.org/ to
         // the retrieval URI classpath:schema/
